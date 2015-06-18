@@ -1,0 +1,141 @@
+body {
+	background-color: #8D97A2;
+}
+
+.header {
+	background-color: #19BF6C;
+	height: 235px;
+	border-bottom: 5px solid #149956;
+}
+
+.header p {
+	color:white;
+	vertical-align: bottom;
+	line-height: 400px;
+	font-size: 175%;
+	padding: 10px;
+}
+
+.project {
+	width:40%;
+	margin: auto;
+}
+
+.nav-bar {
+	background-color: #24476B;
+	text-align: right;
+	position: relative;
+	bottom: 16px;
+	height: 40px;
+	border-bottom: 5px solid #1A334D;
+}
+
+.nav-bar .list {
+	display: inline-block;
+	color: white;
+	vertical-align: middle;
+	line-height: 40px;
+	margin-left: 10px;
+	padding: 0px 10px;
+	font-size: 90%;
+}
+
+.sidebar {
+	background-color: white;
+	position: relative;
+	text-decoration: none;
+	float: right;
+	border-bottom: 3px solid black;
+	padding:8px;
+	left: 180px;
+    top: -15px;
+}
+
+.bullet {
+	list-style-type: none;
+}
+
+.link{
+	color: red;
+}
+
+.header-small {
+	font-weight: bold;
+	font-size: 90%;
+}
+
+.sidebar .gray.small{
+	color: gray;
+	font-size: 85%;
+	margin-left: -25px;
+	padding-right: 15px;
+}
+
+.main-content {
+	background-color: white;
+	padding: 5px;
+	position: relative;
+	bottom: 16px;
+}
+
+.header-main {
+	font-weight: bold;
+	font-size: 115%;
+}
+
+.main-display {
+	display: inline-block;
+	position: relative;
+    bottom: 225px;
+    padding: 20px;
+}
+
+.second-header {
+	font-weight: bold;
+	font-size: 105%;
+	padding-left: 15px;
+}
+
+.table td, .table th {
+	border:1px solid gray;
+	padding: 5px;
+	margin: 0px;
+}
+
+.table th {
+	background-color: #CCCCCC;
+}
+
+.table {
+	border-spacing: 0px;
+}
+
+.button {
+	background-color: #0099CC;
+	color: white;
+	padding: 5px 25px;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.codebox {
+	background-color: #CCCCCC;
+	position: relative;
+	bottom:255px;
+	margin:20px;
+	padding: 0px;
+}
+
+.pre {
+	white-space: pre;
+}
+
+.main-display2 {
+	display: inline-block;
+	position: relative;
+    bottom: 305px;
+    padding: 20px;
+    margin: 40px;
+}
