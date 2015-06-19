@@ -8,7 +8,7 @@ body {
 	border-bottom: 5px solid #149956;
 }
 
-.header p {
+.header .title {
 	color:white;
 	vertical-align: bottom;
 	line-height: 400px;
@@ -41,7 +41,7 @@ body {
 }
 
 .sidebar {
-	background-color: white;
+	background-color: #EDEDED;
 	position: relative;
 	text-decoration: none;
 	float: right;
@@ -72,7 +72,7 @@ body {
 }
 
 .main-content {
-	background-color: white;
+	background-color: #EDEDED;
 	padding: 5px;
 	position: relative;
 	bottom: 16px;
@@ -87,6 +87,13 @@ body {
 	display: inline-block;
 	position: relative;
     bottom: 225px;
+    padding: 20px;
+}
+
+.main-display-sub{
+	display: inline-block;
+	position: relative;
+    bottom: 275px;
     padding: 20px;
 }
 
@@ -123,7 +130,7 @@ body {
 .codebox {
 	background-color: #CCCCCC;
 	position: relative;
-	bottom:255px;
+	bottom:295px;
 	margin:20px;
 	padding: 0px;
 }
@@ -135,7 +142,72 @@ body {
 .main-display2 {
 	display: inline-block;
 	position: relative;
-    bottom: 305px;
+    bottom: 345px;
     padding: 20px;
     margin: 40px;
+}
+
+.main-display3 {
+	display: inline-block;
+	position: relative;
+    bottom: 405px;
+    padding: 20px;
+}
+
+.img {
+	display: inline-block;
+}
+
+.subtext {
+	color: gray;
+	font-size: 90%;
+}
+
+.line-through {
+	background-color: #EDEDED;
+	position: relative;
+	bottom: 32px;
+    padding-left: 12px;
+    width: 78px;
+    left: 20px;
+    font-size: 80%;
+}
+
+.line {
+	position: relative;
+	bottom: 14px;
+}
+
+.position-right {
+	text-align: right;
+}
+
+.name-box {
+	width: 75%;
+	height: 20px;
+}
+
+.spacing {
+	padding: 5px 0px;
+}
+
+.comment-box {
+	 padding: 57px 36%;
+}
+
+.div-comment-box {
+	text-align: center;
+}
+
+.submit-button {
+	text-align: center;
+    background-color: #E60000;
+    color: white;
+    padding: 10px;
+    font-size: 85%;
+}
+
+.small-image {
+	display: inline-block;
+    margin-top: 40px;
 }
