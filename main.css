@@ -208,6 +208,16 @@ body {
 }
 
 .small-image {
-	display: inline-block;
-    margin-top: 40px;
+	float: left;
+	margin-right: 15px;
+}
+
+.comment-section {
+	margin-top: 45px;
+}
+
+.mid-comment {
+	border-left: 1px solid #CCCCCC;
+    margin-left: 50px;
+    padding-left: 21px;
 }
